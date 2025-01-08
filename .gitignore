@@ -1,0 +1,4 @@
+node_modules/
+.env
+assets/resume.pdf
+config.js
