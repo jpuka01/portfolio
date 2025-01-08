@@ -9,3 +9,7 @@
 8. Dark Mode
 9. Optimize deployment
 10. Revise about me section
+
+1. Add password to gitignore for Google
+2. Set up heroku backend? and buy frontend domain on vercel + connect to github
+3. Update resumeg
