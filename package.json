@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node server.js",
+    "start": "node backend/server.js",
     "build:css": "npx tailwindcss -i ./frontend/index.css -o ./frontend/output.css --watch"
   },
   "devDependencies": {
