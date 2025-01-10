@@ -484,8 +484,7 @@
                     </div>
                     <div class="flex flex-col items-center md:items-end">
                         <span
-                            class="block text-sm lg:text-lg md:text-md text-gray-500 sm:text-center dark:text-gray-400 flex-col md:flex-row text-center md:text-left mt-4 md:mt-0"
-                            id="current-date">Update:
+                            class="block text-sm lg:text-lg md:text-md text-gray-500 sm:text-center dark:text-gray-400 flex-col md:flex-row text-center md:text-left mt-4 md:mt-0">Updated: 11 January 2025
                         </span>
                         <span
                             class="block text-sm lg:text-lg md:text-md text-gray-500 sm:text-center dark:text-gray-400 flex-col md:flex-row text-center md:text-left mt-2 md:mt-0">
@@ -563,15 +562,6 @@
                     console.error('Error:', error);
                 });
             });
-        });
-    </script>
-    <!-- Current Date -->
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            const currentDateElement = document.getElementById('current-date');
-            const options = { year: 'numeric', month: 'long', day: 'numeric' };
-            const currentDate = new Date().toLocaleDateString('en-US', options);
-            currentDateElement.textContent = `Update: ${currentDate}`;
         });
     </script>
     <!-- Dark Mode Toggle -->
