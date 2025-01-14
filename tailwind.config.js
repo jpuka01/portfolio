@@ -17,7 +17,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        title: ['Dancing Script', 'serif'],
+        title: ['Poppins', 'serif'],
         headers: ['DM Serif Text', 'serif'],
         body: ['Roboto', 'serif'],
       },
